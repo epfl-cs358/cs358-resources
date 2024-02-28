@@ -10,7 +10,7 @@ int phase_pattern[][4] = {
 };
 
 void step(bool forward){
-  static int current_step = 0;
+  static unsigned current_step = 0;
     
   if(forward) current_step = (current_step + 1) % 4;
   else current_step = (current_step - 1) % 4;

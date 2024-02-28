@@ -10,19 +10,9 @@ long pos_xy[2] = {0,0};
 long pos_xya[5][2] = {{0,0}, {4000, 0}, {0, 4000}, {4000, 4000}, {0, 0}};
 
 
-void abc() {
-  int i = 0;
-  for(i = 0; i < 5; i++) {
-    while (X.distanceToGo() != 0) { delay(10); }
-    XY.moveTo(pos_xya[i]);
-    XY.runSpeedToPosition();
-  }
-}
-
-
 void setup() {
-	X.setMaxSpeed(500.0);
-	Y.setMaxSpeed(500.0);
+  X.setMaxSpeed(500.0);
+  Y.setMaxSpeed(500.0);
 
   XY.addStepper(X);
   XY.addStepper(Y);
@@ -31,15 +21,20 @@ void setup() {
 }
 
 
-
-
-void loop() {
-  delay(2000);
-  abc();
-}
-
-
 /*
+void loop() {
+  int i = 0;
+  delay(2000);
+
+  for(i = 0; i < 5; i++) {
+    while (X.distanceToGo() != 0) { delay(10); }
+    XY.moveTo(pos_xya[i]);
+    XY.runSpeedToPosition();
+  }
+}
+*/
+
+
 void loop() {
 
   if (X.distanceToGo() == 0) {
@@ -59,6 +54,5 @@ void loop() {
 
   XY.runSpeedToPosition();
 }
-*/
 
 

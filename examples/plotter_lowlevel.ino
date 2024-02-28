@@ -20,7 +20,7 @@ void step(bool forward){
 }
 
 void loop() {
-  delay(5);
+  delayMicroseconds(1800);
   step(true);
 }
 

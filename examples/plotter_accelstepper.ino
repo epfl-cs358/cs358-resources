@@ -27,9 +27,10 @@ void loop() {
   delay(2000);
 
   for(i = 0; i < 5; i++) {
-    while (X.distanceToGo() != 0) { delay(10); }
     XY.moveTo(pos_xya[i]);
-    XY.runSpeedToPosition();
+    while (X.distanceToGo() != 0) {
+      XY.runSpeedToPosition();
+    }
   }
 }
 */

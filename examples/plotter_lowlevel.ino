@@ -20,7 +20,7 @@ void step(bool forward){
 }
 
 void loop() {
-  delayMicroseconds(1800);
+  delayMicroseconds(3000); // tune this. 1800 is the smallest delay that worked for me
   step(true);
 }
 

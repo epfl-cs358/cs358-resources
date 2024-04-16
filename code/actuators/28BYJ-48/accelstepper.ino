@@ -3,9 +3,9 @@
 #define MotorInterfaceType 4
 
 // Connect pins 1-4 of two ULN2003 stepper drivers, the first to pins 8-11 and
-// the second to pine 2-5, respectively. (The permutations of the pin orders
-// below are idiosyncrasies of the software library; ignore these permuted
-// orders and wire pins in ascending order.)
+// the second to pine 2-5 of the Arduino Uno, respectively. (The permutations
+// of the pin orders below are idiosyncrasies of the software library; ignore
+// these permuted orders and wire pins in ascending order.)
 AccelStepper X(MotorInterfaceType, 8, 10, 9, 11);
 AccelStepper Y(MotorInterfaceType, 2, 4, 3, 5);
 MultiStepper XY;

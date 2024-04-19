@@ -1,1 +1,3 @@
-# cs358-misc
+# cs358-resources
+
+Hello World!

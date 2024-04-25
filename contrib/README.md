@@ -1,13 +1,13 @@
 # How to contribute
 
-If you have an artifact that you want to contribute, first decide of what kind it is -- CAD, code, or combined  solution. Do not contribute your entire team project -- for this your have your dedicated repo, to which we will link from here.
+If you have an artifact that you want to contribute, first decide of what kind it is -- CAD, code, or combined  solution. Do not contribute your entire team project -- for this you have your dedicated repo, to which we will link from here.
 
 It does make sense to first ask the course staff how we think about you contributing a specific artifact, before you put work into polishing your submission, though this is not strictly required.
 
 Create a directory with a descriptive name not used for an artifact in this repository yet, and add your files. Your entire contribution should be inside a single directory (which of course may have subdirectories). Include a README.md descriping your artifact and what to do, and credit yourself and your co-creators.
 Try to make your contribution as clean, robust, and useful as possible. We may reject a submission that is too preliminary (though you can re-submit after fixing the weaknesses).
 
-Fork this repo, add your directory to the fitting subdirectory of contrib (cad, code, or solution), and create a pull request. Do not add your contributions to top-level directories other than contrib. We may move your directory to a suitable top-level directory later. 
+Fork this repo, add your directory to the fitting subdirectory of contrib (cad, code, or solution), and create a pull request. Make sure you have check the license implications first, and tell us which team you belong to, since github handles are nearly anony,ous. Do not add your contributions to top-level directories other than contrib. We may move your directory to a suitable top-level directory later. 
 
 For CAD contributions, we ask that you provide a Fusion360 archive (.f3d/.f3z) file AND a .step file. If your parts are to be 3d-printed, please also provide .stl files. For a design to be laser-cut, please also provide .dxf files.
 

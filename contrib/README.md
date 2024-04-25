@@ -13,3 +13,10 @@ For CAD contributions, we ask that you provide a Fusion360 archive (.f3d/.f3z) f
 
 We reserve the right to modify or delete your contribution later. Typically, we expect this to happen when a component you rely upon is not made anymore and cannot easily be substituted. We may allow future students to improve upon your articfact and credit themselves as co-author. While your contribution is in the repo, you will be credited as author.
 
+
+## Respecting the License
+
+Everything in this repository must adhere to the Apache 2.0 License. Only contribute files that you created or that adhere to the Apache 2.0 License (in that case, make sure to credit the source). If you have taken a file adhering to another license and mildly edited it, do not include it here but link to the original file and provide a diff/patch. Everything else can only be linked to.
+
+
+

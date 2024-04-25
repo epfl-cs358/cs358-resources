@@ -16,7 +16,7 @@ We reserve the right to modify or delete your contribution later. Typically, we 
 
 ## Respecting the License
 
-Everything in this repository must adhere to the Apache 2.0 License. Only contribute files that you created or that adhere to the Apache 2.0 License (in that case, make sure to credit the source). If you have taken a file adhering to another license and mildly edited it, do not include it here but link to the original file and provide a diff/patch. Everything else can only be linked to.
+Everything in this repository must adhere to the Creative Commons License. Only contribute files that you created or that adhere to the Apache 2.0 License (in that case, make sure to credit the source). If you have taken a file adhering to another license and mildly edited it, do not include it here but link to the original file and provide a diff/patch. Everything else can only be linked to.
 
 
 

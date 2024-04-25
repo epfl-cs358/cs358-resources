@@ -1,6 +1,6 @@
 # cs358-resources
 
-This repository has been created for students taking the course CS358 Making Intelligent Things at EPFL. Anybody may use these resources -- see the [LICENSE](LICENSE).
+This repository has been created for students taking the course CS358 Making Intelligent Things at EPFL. It contains educational resources and is licensed under the [CC-BY-4.0 LICENSE](LICENSE). While short code pieces are included, they are provided for educational purposes.
 
 This repository is for sharing files that may be useful to you in your EPFL CS358 projects, particularly CAD designs and code, but also entire solutions to specific problems, which may combine electronics designs, code, bills of materials, and CAD files.
 

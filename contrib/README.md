@@ -18,5 +18,6 @@ We reserve the right to modify or delete your contribution later. Typically, we 
 
 Everything in this repository must adhere to the Creative Commons BY-4.0 License. Only contribute files that you created or that adhere to this license (in that case, make sure to credit the source). If you have taken a file adhering to another license and mildly edited it, do not include it here but link to the original file and provide a diff/patch. Everything else can only be linked to.
 
+The chosen license is not considered particularly suitable for distributing conde. This repository is intended for short code pieces provided mainly for educational purposes. If you have developed a piece of code of considerable complexity, let us share it through a different repository with a suitable (permissible) software license.
 
 

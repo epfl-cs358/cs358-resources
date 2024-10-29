@@ -1,7 +1,10 @@
 #include <SimpleFOC.h>
 
-//BLDCMotor motor = BLDCMotor(7, 0.033); // br3536 kv950
-BLDCMotor motor = BLDCMotor(7, 0.025); // br3536 kv1200
+//BLDCMotor motor = BLDCMotor(7, 0.033);  // br3536 kv950
+BLDCMotor motor = BLDCMotor(7, 0.025);  // br3536 kv1200
+//BLDCMotor motor = BLDCMotor(14, 0.27);  // t-motor mn5008 kv170
+//BLDCMotor motor = BLDCMotor(20, 0.055); // Eaglepower 8318 kv100
+
 
 // STM32 B_G431B_ESC1
 BLDCDriver6PWM driver = BLDCDriver6PWM(A_PHASE_UH, A_PHASE_UL, A_PHASE_VH, A_PHASE_VL, A_PHASE_WH, A_PHASE_WL);

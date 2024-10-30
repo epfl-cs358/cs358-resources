@@ -1,4 +1,6 @@
 
+#odrv0.erase_configuration()
+
 #odrv0.config.enable_brake_resistor = True
 #odrv0.config.brake_resistance = 2
 #odrv0.config.dc_max_positive_current = 18

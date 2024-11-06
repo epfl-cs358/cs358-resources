@@ -46,8 +46,8 @@ odrv0.axis0.requested_state = AXIS_STATE_MOTOR_CALIBRATION
 
 
 # depends on motor, numbers set by motor calibration
-odrv0.axis0.motor.config.phase_inductance = 3.004827931363252e-06
-odrv0.axis0.motor.config.phase_resistance = 0.02507280930876732
+#odrv0.axis0.motor.config.phase_inductance = 3.004827931363252e-06
+#odrv0.axis0.motor.config.phase_resistance = 0.02507280930876732
 
 odrv0.axis0.motor.config.pre_calibrated = True
 odrv0.save_configuration()
